@@ -35,4 +35,20 @@ if ($response === false) {
 // Close cURL
 curl_close($ch);
 
+// Retrieve the raw POST data
+$postData = file_get_contents('php://input');
+
+// Parse the raw POST data as email message
+$emailMessage = imap_rfc822_parse_headers($postData);
+
+// Access the email subject if it exists
+$subject = isset($emailMessage->subject) ? $emailMessage->subject : 'No Subject';
+
+// Process the email
+// For example, you can log the subject:
+// error_log($subject);
+
+// Send response
+echo 'OK';
+
 ?>
