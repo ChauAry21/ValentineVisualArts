@@ -17,7 +17,7 @@
                 <li><a href="#">Videos</a></li>
                 <li><a href="#">Photography</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contacts.php">Contact</a></li> <!-- Updated href attribute -->
             </ul>
         </nav>
     </div>
