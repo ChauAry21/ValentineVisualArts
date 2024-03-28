@@ -67,7 +67,7 @@
         <h1>About Me</h1>
         <nav>
             <ul>
-                <li><a href="lander.php">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="videos.php">Videos</a></li>
                 <li><a href="photography.php">Photography</a></li>
                 <li><a href="about.php">About</a></li>
