@@ -120,7 +120,7 @@
 
 <section id="banner">
     <div class="container">
-        <h2>Explore My Photography Gallery</h2>
+        <h2>Explore My Gallery</h2>
     </div>
 </section>
 
