@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ValentineVisualArts - Videos & Photography</title>
+    <title>About Me - ValentineVisualArts</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f9fa;
         }
         header {
             background-color: #343a40;
@@ -39,17 +40,17 @@
         section {
             padding: 50px 0;
         }
-        #banner {
-            background-color: #007bff;
-            color: #ffffff;
-            text-align: center;
-            padding: 50px 0;
+        .about-me {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        #banner h2 {
-            margin: 0;
+        .about-me h2 {
+            margin-top: 0;
         }
-        #banner p {
-            margin: 20px 0;
+        .about-me p {
+            margin-bottom: 20px;
         }
         footer {
             background-color: #343a40;
@@ -63,37 +64,24 @@
 
 <header>
     <div class="container">
-        <h1>Kyle Love</h1>
+        <h1>About Me</h1>
         <nav>
             <ul>
                 <li><a href="lander.php">Home</a></li>
                 <li><a href="videos.php">Videos</a></li>
                 <li><a href="photography.php">Photography</a></li>
                 <li><a href="about.php">About</a></li>
-                <li><a href="contacts.php">Contact</a></li> <!-- Updated href attribute -->
+                <li><a href="contacts.php">Contact</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<section id="banner">
+<section class="about-me">
     <div class="container">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Explore my videos and photography collections.</p>
-    </div>
-</section>
-
-<section id="videos">
-    <div class="container">
-        <h2>Videos</h2>
-        <!-- Your video content goes here -->
-    </div>
-</section>
-
-<section id="photography">
-    <div class="container">
-        <h2>Photography</h2>
-        <!-- Your photography content goes here -->
+        <h2>Hello, I'm Kyle Love</h2>
+        <p>Welcome to my portfolio website. I am a passionate photographer and videographer based in Virginia. I specialize in capturing car meets, esports lans and creating engaging visual content. I strive to deliver high-quality work that exceeds my clients' expectations.</p>
+        <p>Feel free to explore my portfolio to see some of my latest projects. If you have any questions or inquiries, don't hesitate to contact me.</p>
     </div>
 </section>
 
